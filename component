@@ -1,0 +1,22 @@
+component 만드는 2가지 방법
+
+1.변수선언하기
+
+let Modal = () => {}
+
+const Modal = () => {}
+const는 재선언 재할당이 불가해서 사용시 에러메세지를 출력해줘서 유용함
+
+2.함수만들기
+
+function Modal () {
+  return (
+    <div className="modal">
+      <h4>Title</h4>
+      <p>date</p>
+      <p>content</p>
+    </div>
+    
+
+  )
+}
